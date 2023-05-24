@@ -79,7 +79,9 @@ function gdnolock() {
   git diff "$@" ":(exclude)package-lock.json" ":(exclude)*.lock"
 }
 
-function gdv() { git diff -w "$@" | view - }
+function gdv() {
+  git diff -w "$@" | view -
+}
 
 alias gf='git fetch'
 alias gfa='git fetch --all --prune --jobs=10'

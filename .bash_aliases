@@ -117,7 +117,7 @@ alias gmtlvim='git mergetool --no-prompt --tool=vimdiff'
 alias gma='git merge --abort'
 alias gms="git merge --squash"
 
-alias gp='git push'
+#alias gp='git push'  # GitPod uses this
 alias gpd='git push --dry-run'
 alias gpf='git push --force-with-lease --force-if-includes'
 alias gpf!='git push --force'
